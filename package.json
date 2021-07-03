@@ -1,6 +1,7 @@
 {
   "name": "@sunruse-pwa/npm-template",
   "version": "999.999.999",
+  "description": "A template repository for a publicly published NPM package written in TypeScript with linting, unit tests (including coverage) and publishing from a GitHub Action.",
   "engines": {
     "node": ">=12.13.0"
   },

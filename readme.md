@@ -6,7 +6,7 @@ A template repository for a publicly published NPM package written in TypeScript
 
 After clicking "Use this template" on this repository, there are some steps you need to take to make it your own.
 
-First, search for and replace all references to `@sunruse-pwa/npm-template`, `sunruse-pwa/npm-template` and `sunruse-pwa%2Fnpm-template`.
+First, search for and replace all references to `@sunruse-pwa/npm-template`, `sunruse-pwa/npm-template` and `sunruse-pwa%2Fnpm-template`.  Update the description in [package.json](./package.json).
 
 Then, ensure that you have a `NPM_TOKEN` GitHub secret configured with automation access to the package to be published.
 
