@@ -1,6 +1,6 @@
 # @sunruse-pwa/npm-template [![Continuous Integration](https://github.com/sunruse-pwa/npm-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/sunruse-pwa/npm-template/actions) [![License](https://img.shields.io/github/license/sunruse-pwa/npm-template.svg)](https://github.com/sunruse-pwa/npm-template/blob/master/license) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsunruse-pwa%2Fnpm-template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsunruse-pwa%2Fnpm-template?ref=badge_shield) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
-A template repository for a NPM package written in TypeScript with linting, unit tests (including coverage) and publishing from a GitHub Action.
+A template repository for a publicly published NPM package written in TypeScript with linting, unit tests (including coverage) and publishing from a GitHub Action.
 
 ## Creating a repository from this template repository
 
