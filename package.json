@@ -26,11 +26,11 @@
     "typescript": "4.3.5"
   },
   "scripts": {
-    "eslint": "eslint \"**/*.ts\"",
+    "eslint": "eslint",
     "del-cli": "del-cli \"**/*.js\" \"**/*.d.ts\" \"!**/node_modules/**/*\"",
     "tsc": "tsc",
     "jasmine": "jasmine --config=unit.jasmine.json",
-    "nyc": "nyc --check-coverage --all --exclude \"**/*.ts\" --exclude \"**/*.d.ts\" --exclude \"**/unit.*\" --lines 100 --functions 100 --branches 100 --statements 100 npm run-script jasmine",
+    "nyc": "nyc --check-coverage --all --exclude \"**/*.ts\" --exclude \"**/*.tsx\" --exclude \"**/*.d.ts\" --exclude \"**/unit.*\" --lines 100 --functions 100 --branches 100 --statements 100 npm run-script jasmine",
     "test": "npm-run-all eslint del-cli tsc nyc"
   },
   "files": [
