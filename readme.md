@@ -10,6 +10,24 @@ First, search for and replace all references to `@sunruse-pwa/npm-template`, `su
 
 Then, ensure that you have a `NPM_TOKEN` GitHub secret configured with automation access to the package to be published.
 
+## Dependency updates
+
+Renovate is configured to automatically merge updates to NPM dependencies once CI passes; this should be safe given that by default, 100% test coverage is required.
+
+Renovate will not be able to detect changes to this template repository, however.  To apply updates, you must do (first time):
+
+```sh
+git remote add template https://github.com/sunruse-pwa/npm-template
+```
+
+Then, every subsequent time:
+
+```sh
+git fetch template
+git merge template/origin
+git push
+```
+
 ## Developing
 
 After cloning, run `npm install` to install dependencies.  Run `npm test` to run ESLint, compile TypeScript and run tests.  This can be started from Visual Studio Code by pressing (cmd/ctrl) + shift + B.
