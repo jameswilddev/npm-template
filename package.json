@@ -1,5 +1,5 @@
 {
-  "name": "@sunruse-pwa/npm-template",
+  "name": "npm-template",
   "version": "999.999.999",
   "description": "A template repository for a publicly published NPM package written in TypeScript with linting, unit tests (including coverage) and publishing from a GitHub Action.",
   "engines": {
@@ -8,7 +8,7 @@
   "engineStrict": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunruse-pwa/npm-template"
+    "url": "https://github.com/jameswilddev/npm-template"
   },
   "license": "MIT",
   "devDependencies": {
